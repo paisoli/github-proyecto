@@ -11,18 +11,22 @@ def contar_vocales(x):
         if z in ["a"]:
             a.append(z)
             voc=voc+1
-        if z in ["e"]:
-            e.append(z)
-            voc=voc+1
-        if z in ["i"]:
-            i.append(z)
-            voc=voc+1
-        if z in ["o"]:
-            o.append(z)
-            voc=voc+1
-        if z in ["u"]:
-            u.append(z)
-            voc=voc+1
+        else:
+           if z in ["e"]:
+             e.append(z)
+              voc=voc+1
+           else:
+              if z in ["i"]:
+              i.append(z)
+              voc=voc+1
+                  else:
+                     if z in ["o"]:
+                      o.append(z)
+                       voc=voc+1
+                           else:
+                              if z in ["u"]:
+                              u.append(z)
+                              voc=voc+1
 
     print("a=",len(a)+1)
     print("e=",len(e))
@@ -31,4 +35,3 @@ def contar_vocales(x):
     print("u=",len(u))
 
 contar_vocales(cad)
-
