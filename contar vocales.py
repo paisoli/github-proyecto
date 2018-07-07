@@ -11,16 +11,16 @@ def contar_vocales(x):
         if z in ["a"]:
             a.append(z)
             voc=voc+1
-        if z in ["e"]:
+        elif z in ["e"]:
             e.append(z)
             voc=voc+1
-        if z in ["i"]:
+        elif z in ["i"]:
             i.append(z)
             voc=voc+1
-        if z in ["o"]:
+        elif z in ["o"]:
             o.append(z)
             voc=voc+1
-        if z in ["u"]:
+        elif z in ["u"]:
             u.append(z)
             voc=voc+1
 
